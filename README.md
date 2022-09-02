@@ -15,9 +15,9 @@ allowed and a key can only map to one value.
 
 ## Map Implementations
 
-Like the `List` interface, the `Map` interface has multiple implementations that
-focus on different aspects of maps. The following are the most commonly used
-implementations:
+Like the `Collection` interface, the `Map` interface has multiple
+implementations that focus on different aspects of maps. The following are the
+most commonly used implementations:
 
 1. `HashMap`: permits null keys and null values, and makes no guarantee on the
    order of the elements - this is the implementation we will focus on in this
@@ -77,8 +77,9 @@ Another way we could have written the above example is to define the map as a
 HashMap<String, Character> studentGrades = new HashMap<String, Character>();
 ```
 
-Just like the `ArrayList`, if we have an estimate of how many items will be in
-the `HashMap`, then we can specify the initial capacity like so:
+Just like the  `ArrayList` and `HashSet`, if we have an estimate of how many
+items will be in the `HashMap`, then we can specify the initial capacity like
+so:
 
 ```java
 HashMap<String, Character> studentGrades = new HashMap<String, Character>(3);
