@@ -113,16 +113,16 @@ Here are the key methods of the `HashMap` class:
 
 | Method                        | Return Type                                                                               | Description                                         |
 |-------------------------------|-------------------------------------------------------------------------------------------|-----------------------------------------------------|
-| `put(Type key, Type value)`   | value previously associated with the key, or null if there was no mapping for the key     | Adds or Updates a key/value pair to the map         |
-| `get(Type key)`               | value of the given key, or null if the map does not contain the given key                 | Gets a value from a map based on its key            |
-| `remove(Type key)`            | value that is removed at the given key, or null if the map does not contain the given key | Removes a key/value pair from a map                 |
+| `put(Key key, Value value)`   | value previously associated with the key, or null if there was no mapping for the key     | Adds or Updates a key/value pair to the map         |
+| `get(Key key)`                | value of the given key, or null if the map does not contain the given key                 | Gets a value from a map based on its key            |
+| `remove(Key key)`             | value that is removed at the given key, or null if the map does not contain the given key | Removes a key/value pair from a map                 |
 | `size()`                      | int                                                                                       | Gets the current size of the map                    |
-| `contains(Type key)`          | boolean                                                                                   | Checks to see if a map contains a specific key      |
-| `contains(Type value)`        | boolean                                                                                   | Checks to see if a map contains a specific value    |
+| `contains(Key key)`           | boolean                                                                                   | Checks to see if a map contains a specific key      |
+| `contains(Value value)`       | boolean                                                                                   | Checks to see if a map contains a specific value    |
 | `isEmpty()`                   | boolean                                                                                   | Checks to see if a list is empty or has a size of 0 |
 | `keyset()`                    | set of keys                                                                               | Gets a set of the keys in the current map           |
 | `values()`                    | collection of values                                                                      | Gets a collection of values in the current map      |
-| `entry(Type key, Type value)` | map entry                                                                                 | Converts the key/value pair into a Map.Entry        |
+| `entry(Key key, Value value)` | map entry                                                                                 | Converts the key/value pair into a Map.Entry        |
 
 ## Iterating Through a Map
 
